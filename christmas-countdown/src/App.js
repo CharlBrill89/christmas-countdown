@@ -1,12 +1,17 @@
 import React from "react";
 import Countdown from "./Countdown";
+import UnsplashImage from "./UnsplashImage";
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Countdown />
+      <UnsplashImage />
+      <div className="content">      
+        <Countdown />
+      </div>
+
     </div>
   );
 }
