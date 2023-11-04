@@ -7,7 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <UnsplashImage />
+      {/* <UnsplashImage /> */}
+      
       <div className="content">      
         <Countdown />
       </div>

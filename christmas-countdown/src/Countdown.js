@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function Countdown() {
-  const christmasDate = new Date("2023-12-25T00:00:00");
+  const christmasDate = new Date("2023-12-20T20:57:00");
 
   const calculateTimeLeft = () => {
     const now = new Date();
